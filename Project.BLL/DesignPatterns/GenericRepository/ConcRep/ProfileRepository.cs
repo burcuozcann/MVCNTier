@@ -10,5 +10,9 @@ namespace Project.BLL.DesignPatterns.GenericRepository.ConcRep
 {
    public class ProfileRepository:BaseRepository<AppUserProfile>
     {
+        public ProfileRepository()
+        {
+
+        }
     }
 }
